@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h1>Регистрация пользователя</h1>
+
+    {% if info.error %}
+        <p class="error">{{ info.error }}</p>
+    {% endif %}
+
+    {% if info.message %}
+        <p class="success">{{ info.message }}</p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ info.form.username.label }}<br>
+            {{ info.form.username }}<br>
+            {% if info.form.username.errors %}
+                <div class="error">{{ info.form.username.errors }}</div>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            {{ info.form.password.label }}<br>
+            {{ info.form.password }}<br>
+            {% if info.form.password.errors %}
+                <div class="error">{{ info.form.password.errors }}</div>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            {{ info.form.repeat_password.label }}<br>
+            {{ info.form.repeat_password }}<br>
+            {% if info.form.repeat_password.errors %}
+                <div class="error">{{ info.form.repeat_password.errors }}</div>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            {{ info.form.age.label }}<br>
+            {{ info.form.age }}<br>
+            {% if info.form.age.errors %}
+                <div class="error">{{ info.form.age.errors }}</div>
+            {% endif %}
+        </div>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+</body>
+</html>
