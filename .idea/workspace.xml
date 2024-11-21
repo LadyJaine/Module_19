@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8523c35c-53be-4ec8-a084-0bb98b27007e" name="Changes" comment="Task 1">
+    <list default="true" id="8523c35c-53be-4ec8-a084-0bb98b27007e" name="Changes" comment="Task 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping/games/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/games/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/games/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/games/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/shopping/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/shopping/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/shopping/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/shopping/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +28,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Евгения/PycharmProjects/Module_19"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Евгения/PycharmProjects/Module_13_asinc&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,11 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731919116560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1731957012637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731957012637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
+    <MESSAGE value="Task 2" />
+    <MESSAGE value="Task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4" />
   </component>
 </project>

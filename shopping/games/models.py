@@ -5,21 +5,20 @@ from django.db import models
 
 class Buyer(models.Model):
     name = models.CharField(max_length=20)
-    balance = models.DecimalField(max_digits=6, decimal_places=3)
+    balance = models.DecimalField(max_digits=10, decimal_places=3)
     age = models.IntegerField()
 
     def __str__(self):
-        return self.name
+        return f'{self.name}  {self.balance}  {self.age}'
 
 
 class Game(models.Model):
     title = models.CharField(max_length=20)
-    cost = models.DecimalField(max_digits=5, decimal_places=1)
-    size = models.DecimalField(max_digits=5, decimal_places=1)
+    cost = models.DecimalField(max_digits=10, decimal_places=1)
+    size = models.DecimalField(max_digits=10, decimal_places=1)
     description = models.TextField()
     age_limited = models.BooleanField(default=False)
-    buyer = models.ManyToManyField(Buyer, related_title='games')
-
+    buyer = models.ManyToManyField(Buyer, related_query_name='buyer')
 
     def __str__(self):
-        return self.title
+        return f'{self.title}  {self.description}  {self.age_limited}'
